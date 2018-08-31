@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-var error int = 32
+var error int = 4
 
 func wrapper() func(x int) int {
 	if error >= 5 {
